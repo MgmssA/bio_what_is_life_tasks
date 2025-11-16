@@ -1,0 +1,211 @@
+{{< include _includes/_front_matter.qmd >}}
+{{< include _includes/_init_fontawesome.qmd >}} 
+{{< include _includes/_katex_macros.qmd >}} 
+{{< include _includes/_r_themes.qmd >}}
+{{< include _includes/_r_rating_init.qmd >}}
+
+{{< include _level_1.qmd >}}
+{{< include _level_2.qmd >}}
+{{< include _level_3.qmd >}}
+
+{{< include _includes/_r_rating.qmd >}}
+
+## Stufe I
+
+###
+
+```{r}
+#| output: false
+points <- 5
+level_1_points <- level_1_points + points
+``` 
+
+Womit beschäftigt sich die Naturwissenschaft **Biologie**? Gib eine einfache Beschreibung an. 
+
+[[`{r} points` Punkte, Fünf von sieben möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich.]]{fg="purple"}
+
+::: {.content-hidden unless-meta="show-rating"}
+[Die Biologie beschäftigt sich mit **lebenden Systemen**. Dies ist einer der komplexesten **Organisationsformen von Materie**. Sie untersucht die **Strukturen, Prozesse und Beziehungen** des Lebendigen auf allen Ebenen: von der **molekularen Welt** bis auf die **planetare Ebene**.]{fg="green-shade-3"}
+:::
+
+###
+
+```{r}
+#| output: false
+points <- 5
+level_1_points <- level_1_points + points
+``` 
+
+Gib die einfachste Beschreibung des Begriffs **Metabolismus** an.
+
+[[`{r} points` Punkte, Fünf von acht möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich.]]{fg="purple"}
+
+::: {.content-hidden unless-meta="show-rating"}
+[Der Metabolismus ist ein **Lebensprozess** bei dem **Nahrung und Sauerstoff** aus der Luft aufgenommen werden, um damit **Lebensenergie und Baustoff** zu gewinnen. Dieser Prozess heißt auch **Stoffwechsel**, denn aus den aufgenommenen Stoffen entstehen **Abfallstoffe und $\ce{\mathbf{CO2}}$**, die der Körper ausscheidet.]{fg="green-shade-3"}
+:::
+
+###
+
+```{r}
+#| output: false
+points <- 2
+level_1_points <- level_1_points + points
+```
+
+Schau Dir @fig-metabolism-equilibrium an; wie kommt das **Fliessgleichgewicht** zustande?
+
+[[`{r} points` Punkte, Zwei von drei möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich.]]{fg="purple"}
+
+```{mermaid}
+%%| fig-height: 3
+%%| label: fig-metabolism-equilibrium
+%%| fig-cap: Leben braucht irgendetwas was es zu etwas anderem umsetzt. Dieser Stoffwechsel ist einer der fundamentalen Eigenschaften des Lebens. 
+flowchart LR
+    Rein@{shape: circle} --> Leben@{shape: circ, label: "Leben"}
+    Leben --> Raus@{shape: circle}
+
+    style Rein fill:#F4F4E7,stroke:#F4F4E7;
+    style Leben stroke:#F4F4E7;
+    style Raus fill:#F4F4E7,stroke:#F4F4E7;
+```
+
+::: {.content-hidden unless-meta="show-rating"}
+[Ein Fliessgleichgewicht ist eine besondere Form eines Gleichgewichts. Die Besonderheit liegt darin, dass es eine **Überlagerung von Raten** darstellt. Im Fall eines lebenden Systems sprechen wir von der **Überlagerung der Rate mit dem etwas in dem Organismus hineinkommt mit der Rate mit der etwas herauskommt**. Auf das Diagramm bezogen heißt das, die **Überlagerung von *Rein* mit *Raus*.**]{fg="green-shade-3"}
+:::
+
+###
+
+```{r}
+#| output: false
+points <- 2
+level_1_points <- level_1_points + points
+```
+
+Definiere **Homöostase**.
+
+[[`{r} points` Punkte, Zwei von drei möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich. Neben zwei notwendigen Aussagen zur Definition kann eine weitere begründende Aussagen gemacht werden.]]{fg="purple"}
+
+::: {.content-hidden unless-meta="show-rating"}
+[Homöostase ist die **Aufrechterhaltung der inneren Bedingungen** durch **Kontrollmechanismen**. Sie ist notwendig, weil die meisten Lebensvorgänge sehr **abhängig von physikalischen und chemischen Faktoren** wie **Temperatur, Salzgehalt, Säuregehalt und andere Faktoren sind.**]{fg="green-shade-3"}
+:::
+
+###
+
+```{r}
+#| output: false
+points <- 4
+level_1_points <- level_1_points + points
+```
+
+Beschreibe was ein **Reiz** ist. Gib jeweils ein Beispiel für etwas, was **ein Reiz** und etwas was **kein Reiz** ist.
+
+[[`{r} points` Punkte, Vier von vier möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich.]]{fg="purple"}
+
+::: {.content-hidden unless-meta="show-rating"}
+[Ein Reiz ist ein **physikalisches Ereignis**, dass **neben der Auslösung eines Rezeptors** oder eines Sinnes, zu einer **weiteren Informationsverarbeitung** innerhalb des lebenden Systems führt. Keinen Reiz stellt zum Beispiel ultraviolettes Licht für uns Menschen dar; für Bienen aber schon.]{fg="green-shade-3"}
+:::
+
+###
+
+```{r}
+#| output: false
+points <- 1
+level_1_points <- level_1_points + points
+```
+
+Erkläre in einem Satz was **Wachstum** bedeutet.
+
+[[`{r} points` Punkte, Eine von einer möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich.]]{fg="purple"}
+
+::: {.content-hidden unless-meta="show-rating"}
+[Wachstum ist ein lebensnotwendiger Prozess, der die Biomass eines Organismus erhöht.]{fg="green-shade-3"}
+:::
+
+###
+
+```{r}
+#| output: false
+points <- 2
+level_1_points <- level_1_points + points
+```
+
+Definiere möglichst einfach die Begriffe **Anabolismus** und **Katabolismus**.
+
+[[`{r} points` Punkte, Zwei von drei möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich.]]{fg="purple"}
+
+::: {.content-hidden unless-meta="show-rating"}
+[Der Anabolismus und der Katabolismus sind **entgegengesetzt arbeitende Teile** des Metabolismus. Der Anabolismus ist der **aufbauende Teil** und der Katabolismus der **abbauende Teil**.]{fg="green-shade-3"}
+:::
+
+###
+
+```{r}
+#| output: false
+points <- 2
+level_1_points <- level_1_points + points
+```
+
+Beschreibe in zwei Sätzen die **Reproduktion**.
+
+[[`{r} points` Punkte, Zwei von drei möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich.]]{fg="purple"}
+
+::: {.content-hidden unless-meta="show-rating"}
+[Die Reproduktion beschreibt den **Lebensprozess**, der zu der **Herstellung eines dem Ausgangsorganismus ähnlichen Systems oder Organismus** führt. Die Reproduktion wird zur **Vermehrung**, wenn **die Anzahl der Nachkommen die Anzahl der Erzeuger überschreitet**.]{fg="green-shade-3"}
+:::
+
+###
+
+```{r}
+#| output: false
+points <- 3
+level_1_points <- level_1_points + points
+```
+
+Wie heißt die biologische Information? Wo wird sie üblicherweise gespeichert?
+
+[[`{r} points` Punkte, Drei von fünf möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich.]]{fg="purple"}
+
+::: {.content-hidden unless-meta="show-rating"}
+[Die biologische information heißt **genetische Information**. Die genetische Information wird in **lange kreisförmige oder lineare Moleküle** gespeichert, die aus **DNA** bestehen. In Bakterien befindet sie sich **lose innerhalb der Zelle**; bei höheren Organismen liegt die DNA in einer **hoch komprimierten Form in einem Zellkern** vor.]{fg="green-shade-3"}
+:::
+
+## Stufe II
+
+###
+
+```{r}
+#| output: false
+points <- 7
+level_2_points <- level_2_points + points
+```
+
+Betrachte @fig-metabolism-equilibrium und nenne jeweils was in Pflanzen und Tieren hinein und hinaus geht.
+
+[[`{r} points` Punkte, Sieben von neun möglichen Aussagen unter Einbeziehung von Fachsprache sind möglich.]]{fg="purple"}
+
+::: {.content-hidden unless-meta="show-rating"}
+[Bei Tieren gehen hinein: **$\ce{\mathbf{O2}}$ und Nahrung**. Heraus kommen: **Abfall und $\ce{\mathbf{O2}}$**. Bei Pflanzen muss man unterscheiden. Wenn Licht das ist, kommen hinein: **$\ce{\mathbf{CO2}}$ und Mineralien** und heraus kommen **$\ce{\mathbf{O2}}$**. nachts jedoch, wenn kein Licht das ist, geht bei Pflanzen **$\ce{\mathbf{O2}}$** hinein und es kommt **$\ce{\mathbf{CO2}}$** heraus. Die Pflanzen verbrauchen nur ihre eigene Nahrung]{fg="green-shade-3"}
+:::
+
+#. Mit welchem Naturstoff oder Material grenzt sich das Leben von seiner Umgebung ab? Was bildet dieser Naturstoff?
+
+#. Wie nennt sich die biologische Grundeinheit, die nach der Abtrennung von der Umgebung erfolgt?
+
+#. Gib den Namen der Struktur an, die bei höheren Tieren wie wir Menschen, für die Informationsverarbeitung der Reize verwendet wird.
+
+#. Von welchem Zeitraum sprechen wir, wenn wir von schneller und langsamer Anpassung sprechen in @fig-adaptation?
+
+### Stufe III
+
+#.  Warum muss etwas in das Lebendige hinein gehen und heraus kommen in @fig-metabolism-equilibrium? Was wird da verwendet und warum?
+
+#. Ist das Innere in @fig-homeostasis-cellularity in Gleichgewicht mit seiner Umgebung?
+
+#. Was ist der Tod?
+
+#. Erläutere den Zusammenhang zwischen **Wachstum** und **Reproduktion**.
+
+#. Was muss auf jeden Fall innerhalb der biologischen Einheit in @fig-growth wachsen und warum? 
+
+#. Was sorgt jeweils für die schnelle und die langsame Anpassung?
+

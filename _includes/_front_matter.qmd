@@ -1,0 +1,23 @@
+---
+title: |
+    <p>![](style/mgmss_symbol_color.png){width=40px}</p>
+    Kennzeichen des Lebens
+subtitle: 'Warum lebt etwas und etwas anderes nicht?<br><small>Aufgaben</small>'
+date: 2025-10-07
+date-modified: 2025-10-07
+author: Călin Aurel Drăgan
+# abstract: 'Abstract'
+# bibliography: references.bib
+format: 
+    biodoc-html:
+        include-in-header: _includes/_in_header.html
+        # include-after-body: _includes/_after_body.html
+        embed-resources: false
+        self-contained-math: false
+has-fontawesome: false
+has-math: true
+has-rating: true
+show-rating: true
+filters:
+  - highlight-text
+---

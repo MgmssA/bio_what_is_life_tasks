@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Călin Aurel Drăgan">
+
+<title>quarto-input283f582f7f11410a</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-46eeb4c476de49ef7df495821a6125d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark-2e0ab3ffcb189ca14a0af92b40aeab37.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-46eeb4c476de49ef7df495821a6125d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap-f3a7914e7d262fa3d999b278e7fa1a26.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-dark-f3a7914e7d262fa3d999b278e7fa1a26.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-f3a7914e7d262fa3d999b278e7fa1a26.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.16.23/dist/contrib/mhchem.min.js" integrity="sha384-F2ptQFZqNJuqfGGl28mIXyQ5kXH48spn7rcoS0Y9psqIKAcZPLd1NzwFlm/bl1mH" crossorigin="anonymous"></script>
+<script src="index_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="index_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="index_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><p>
+<img src="style/mgmss_symbol_color.png" class="img-fluid" width="40">
+</p>
+<p>Kennzeichen des Lebens</p></h1>
+            <p class="subtitle lead">Warum lebt etwas und etwas anderes nicht?<br><small>Aufgaben</small></p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor:in</div>
+      <div class="quarto-title-meta-contents">
+               <p>Călin Aurel Drăgan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">7. Oktober 2025</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">Geändert</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">7. Oktober 2025</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#arbeitsaufträge" id="toc-arbeitsaufträge" class="nav-link active" data-scroll-target="#arbeitsaufträge">Arbeitsaufträge</a></li>
+  <li><a href="#stufe-i" id="toc-stufe-i" class="nav-link" data-scroll-target="#stufe-i"><span class="header-section-number">1</span> Stufe I</a>
+  <ul>
+  <li><a href="#die-biologie" id="toc-die-biologie" class="nav-link" data-scroll-target="#die-biologie"><span class="header-section-number">1.1</span> Die Biologie</a></li>
+  <li><a href="#beschreibung-metabolismus" id="toc-beschreibung-metabolismus" class="nav-link" data-scroll-target="#beschreibung-metabolismus"><span class="header-section-number">1.2</span> Beschreibung Metabolismus</a></li>
+  <li><a href="#erklärung-fliessgleichgewicht" id="toc-erklärung-fliessgleichgewicht" class="nav-link" data-scroll-target="#erklärung-fliessgleichgewicht"><span class="header-section-number">1.3</span> Erklärung Fliessgleichgewicht</a></li>
+  <li><a href="#beschreibung-homöostase" id="toc-beschreibung-homöostase" class="nav-link" data-scroll-target="#beschreibung-homöostase"><span class="header-section-number">1.4</span> Beschreibung Homöostase</a></li>
+  <li><a href="#was-ist-ein-reiz" id="toc-was-ist-ein-reiz" class="nav-link" data-scroll-target="#was-ist-ein-reiz"><span class="header-section-number">1.5</span> Was ist ein Reiz?</a></li>
+  <li><a href="#erkläre-wachstum" id="toc-erkläre-wachstum" class="nav-link" data-scroll-target="#erkläre-wachstum"><span class="header-section-number">1.6</span> Erkläre Wachstum</a></li>
+  <li><a href="#katabolismus-und-anabolismus" id="toc-katabolismus-und-anabolismus" class="nav-link" data-scroll-target="#katabolismus-und-anabolismus"><span class="header-section-number">1.7</span> Katabolismus und Anabolismus</a></li>
+  <li><a href="#beschreibe-reproduktion" id="toc-beschreibe-reproduktion" class="nav-link" data-scroll-target="#beschreibe-reproduktion"><span class="header-section-number">1.8</span> Beschreibe Reproduktion</a></li>
+  <li><a href="#biologische-information" id="toc-biologische-information" class="nav-link" data-scroll-target="#biologische-information"><span class="header-section-number">1.9</span> Biologische Information</a></li>
+  <li><a href="#stoffe-rein-stoffe-raus" id="toc-stoffe-rein-stoffe-raus" class="nav-link" data-scroll-target="#stoffe-rein-stoffe-raus"><span class="header-section-number">1.10</span> Stoffe rein, Stoffe raus</a></li>
+  <li><a href="#die-hülle" id="toc-die-hülle" class="nav-link" data-scroll-target="#die-hülle"><span class="header-section-number">1.11</span> Die Hülle</a></li>
+  <li><a href="#reizverarbeitung" id="toc-reizverarbeitung" class="nav-link" data-scroll-target="#reizverarbeitung"><span class="header-section-number">1.12</span> Reizverarbeitung</a></li>
+  <li><a href="#anpassung" id="toc-anpassung" class="nav-link" data-scroll-target="#anpassung"><span class="header-section-number">1.13</span> Anpassung</a></li>
+  </ul></li>
+  <li><a href="#stufe-iii" id="toc-stufe-iii" class="nav-link" data-scroll-target="#stufe-iii"><span class="header-section-number">2</span> Stufe III</a>
+  <ul>
+  <li><a href="#warum-stoffe-rein-und-raus" id="toc-warum-stoffe-rein-und-raus" class="nav-link" data-scroll-target="#warum-stoffe-rein-und-raus"><span class="header-section-number">2.1</span> Warum Stoffe rein und raus?</a></li>
+  <li><a href="#was-ist-der-tod" id="toc-was-ist-der-tod" class="nav-link" data-scroll-target="#was-ist-der-tod"><span class="header-section-number">2.2</span> Was ist der Tod?</a></li>
+  <li><a href="#wachse-und-vermehre-dich" id="toc-wachse-und-vermehre-dich" class="nav-link" data-scroll-target="#wachse-und-vermehre-dich"><span class="header-section-number">2.3</span> Wachse und vermehre dich</a></li>
+  <li><a href="#nochmal-anpassung" id="toc-nochmal-anpassung" class="nav-link" data-scroll-target="#nochmal-anpassung"><span class="header-section-number">2.4</span> Nochmal Anpassung</a></li>
+  </ul></li>
+  <li><a href="#punkte" id="toc-punkte" class="nav-link" data-scroll-target="#punkte">Punkte</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<div class="hidden">
+<!-- Groundwork -->
+<p><span class="math display">
+\gdef\sub#1{_{\mathrm{#1}}}
+\gdef\unit#1{\mathrm{#1}}
+</span> <!-- Physical units --> <span class="math display">
+\gdef\celsius{\unit{°C}}
+\gdef\gram{\unit{g}}
+\gdef\joule{\unit{J}}
+\gdef\kelvin{\unit{K}}
+\gdef\kilogram{\unit{kg}}
+\gdef\liter{\unit{L}}
+\gdef\milliliter{\unit{mL}}
+\gdef\meter{\unit{m}}
+\gdef\mole{\unit{mol}}
+\gdef\newton{\unit{N}}
+\gdef\pascal{\unit{Pa}}
+</span> <!-- Prefixed units --> <span class="math display">
+\gdef\kilojoule{\unit{k}\joule}
+</span> <!-- Exponentiated units --> <span class="math display">
+\gdef\squaremeter{\meter^2}
+\gdef\cubicmeter{\meter^3}
+</span> <!-- Combined physical units --> <span class="math display">
+\gdef\newtonperkilogram{\frac{\newton}{\kilogram}}
+\gdef\joulepermole{\frac{\joule}{\mole}}
+\gdef\jouleperkilogram{\frac{\joule}{\kilogram}}
+\gdef\jouleperkelvin{\frac{\joule}{\kelvin}}
+\gdef\jouleperkilogramperkelvin{\frac{\joule}{\kilogram\,\kelvin}}
+\gdef\joulepermoleperkelvin{\frac{\joule}{\mole\,\kelvin}}
+\gdef\kilojouleperkilogram{\frac{\kilojoule}{\kilogram}}
+\gdef\kilojouleperkelvin{\frac{\kilojoule}{\kelvin}}
+\gdef\kilojouleperkilogramperkelvin{\frac{\kilojoule}{\kilogram\,\kelvin}}
+\gdef\kilojoulepermoleperkelvin{\frac{\kilojoule}{\mole\,\kelvin}}
+</span></p>
+</div>
+<div class="hidden">
+
+</div>
+<div class="hidden">
+
+</div>
+<section id="arbeitsaufträge" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="arbeitsaufträge">Arbeitsaufträge</h2>
+<p>Bevor Du loslegst, rufe Dir die <a href="https://mgmssa.github.io/bio_expectations_and_requirements/">Anforderungen</a> für Biologieaufgaben in Stufe 10 ins Gedächtnis. Reiche die Antworten als digitales Dokument ein und verwende eine leserliche Schrift, falls Du ein handgeschriebenes Dokument einreichst. Stufe I ist auf E Niveau, Stufe II ist auf E/A Niveau, Stufe III ist komplett auf A Niveau angesiedelt.</p>
+<p>Die Grundpunktanzahl eines Arbeitsauftrages wird durch die Summe der Grundpunkte aller Aufgaben berechnet. Die Grundpunkte kannst Du nicht einsehen, weil sie für Dich bei der Wahl der Aufgaben keine Rolle spielen. Die Grundpunkte sind aber wichtig, weil die Benotungsstufen von ihnen abhängt.</p>
+<p>Keine Panik! Die Grundpunkte werden mit den Multiplikatoren <strong>1</strong> für Stufe I, <strong>2</strong> für Stufe II, und <strong>3</strong> für Stufe III, multipliziert. Du bekommst <em>diese</em> Punkte und nicht die Grundpunkte. Du vergleichst <em>diese</em> Punkte mit der Tabelle, um Deine Note einzuschätzen. Das heisst, weil Deine Punkte durch die Multiplikatoren gegangen sind, kannst Du mehr Punkte einfahren, als zum Erreichen einer Notenstufe “Sehr gut” notwendig ist.</p>
+</section>
+<section id="stufe-i" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="stufe-i"><span class="header-section-number">1</span> Stufe I</h2>
+<section id="die-biologie" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="die-biologie"><span class="header-section-number">1.1</span> Die Biologie</h3>
+<p>Womit beschäftigt sich die Naturwissenschaft <strong>Biologie</strong>? Gib eine einfache Beschreibung an.</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 5 Punkte von 7 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Die Biologie beschäftigt sich mit <strong>lebenden Systemen</strong>*. Diese stellen eine der komplexesten Organisationsformen* von Materie dar. Die Biologie untersucht die <strong>Strukturen, Prozesse und Beziehungen</strong>*** des Lebendigen auf allen Ebenen: von der <strong>molekularen Welt</strong>* bis auf die <strong>planetare Ebene</strong>*.</span></p>
+</section>
+<section id="beschreibung-metabolismus" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="beschreibung-metabolismus"><span class="header-section-number">1.2</span> Beschreibung Metabolismus</h3>
+<p>Gib die einfachste Beschreibung des Begriffs <strong>Metabolismus</strong> an.</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 6 Punkte von 8 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Der Metabolismus ist ein <strong>Lebensprozess</strong>* bei dem <strong>Nahrung und Sauerstoff</strong>** aus der Luft aufgenommen werden, um damit <strong>Lebensenergie und Baustoff</strong>** zu gewinnen. Dieser Prozess heißt auch <strong>Stoffwechsel</strong>*, denn aus den aufgenommenen Stoffen entstehen <strong>Abfallstoffe und <span class="math inline">\ce{\mathbf{CO2}}</span></strong>**, die der Körper ausscheidet.</span></p>
+</section>
+<section id="erklärung-fliessgleichgewicht" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="erklärung-fliessgleichgewicht"><span class="header-section-number">1.3</span> Erklärung Fliessgleichgewicht</h3>
+<p>Schau Dir <a href="#fig-metabolism-equilibrium" class="quarto-xref">Abbildung&nbsp;1</a> an; wie kommt das <strong>Fliessgleichgewicht</strong> zustande?</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-metabolism-equilibrium" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-metabolism-equilibrium-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-metabolism-equilibrium">flowchart LR
+    Rein@{shape: circle} --&gt; Leben@{shape: circ, label: "Leben"}
+    Leben --&gt; Raus@{shape: circle}
+
+    style Rein fill:#F4F4E7,stroke:#F4F4E7;
+    style Leben stroke:#F4F4E7;
+    style Raus fill:#F4F4E7,stroke:#F4F4E7;
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metabolism-equilibrium-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Leben braucht irgendetwas was es zu etwas anderem umsetzt. Dieser Stoffwechsel ist einer der fundamentalen Eigenschaften des Lebens.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 4 Punkte von 6 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Ein Fliessgleichgewicht ist eine besondere Form eines Gleichgewichts*. Die Besonderheit liegt darin, dass es eine <strong>Überlagerung von Raten</strong>* darstellt. Im Fall eines lebenden Systems sprechen wir von der Überlagerung der Rate mit dem etwas in dem Organismus hineinkommt* mit der Rate mit der etwas herauskommt*. Auf das Diagramm bezogen heißt das, die Überlagerung von <em>Rein</em> mit <em>Raus</em>**.</span></p>
+</section>
+<section id="beschreibung-homöostase" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="beschreibung-homöostase"><span class="header-section-number">1.4</span> Beschreibung Homöostase</h3>
+<p>Was ist die Homöostase? Gib eine kurze und prägnante Beschreibung. Warum gibt es denn überhaupt so etwas?</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 7 Punkte von 9 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Homöostase ist die <strong>Aufrechterhaltung der inneren Bedingungen</strong>* durch <strong>Kontrollmechanismen</strong>*. Sie ist notwendig, weil die meisten Lebensvorgänge sehr <strong>abhängig von physikalischen und chemischen Faktoren</strong>** wie <strong>Licht, Temperatur, Salzgehalt, Säuregehalt, Gasgehalt, und andere Faktoren sind.</strong>*****</span></p>
+</section>
+<section id="was-ist-ein-reiz" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="was-ist-ein-reiz"><span class="header-section-number">1.5</span> Was ist ein Reiz?</h3>
+<p>Beschreibe was ein <strong>Reiz</strong> ist. Gib jeweils ein Beispiel für etwas, was <strong>ein Reiz</strong> und etwas was <strong>kein Reiz</strong> ist.</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 5 Punkte von 7 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Ein Reiz ist ein <strong>physikalisches Ereignis</strong>*, dass <strong>neben der Auslösung eines Rezeptors</strong> oder eines Sinnes*, zu einer <strong>weiteren Informationsverarbeitung</strong>* innerhalb des lebenden Systems führt. Ultraviolettes Licht stellt für eine Biene einen Reiz dar*; für uns Menschen aber nicht*. Für Hunde stellt ein Ton im Ultraschallbereich einen Reiz dar*; wir Menschen können das zu keinem Zeitpunkt unseres Lebens als Reiz aufnehmen*.</span></p>
+</section>
+<section id="erkläre-wachstum" class="level3" data-number="1.6">
+<h3 data-number="1.6" class="anchored" data-anchor-id="erkläre-wachstum"><span class="header-section-number">1.6</span> Erkläre Wachstum</h3>
+<p>Erkläre in einem Satz was <strong>Wachstum</strong> bedeutet.</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 2 Punkte von 3 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Wachstum ist ein lebensnotwendiger Prozess*, der die Biomasse eines Organismus vergrößert*. Wachstum ist alleine aufgrund der Reproduktion und Vermehrung notwendig*.</span></p>
+</section>
+<section id="katabolismus-und-anabolismus" class="level3" data-number="1.7">
+<h3 data-number="1.7" class="anchored" data-anchor-id="katabolismus-und-anabolismus"><span class="header-section-number">1.7</span> Katabolismus und Anabolismus</h3>
+<p>Beschreibe möglichst einfach die Begriffe <strong>Anabolismus</strong> und <strong>Katabolismus</strong>.</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 2 Punkte von 3 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Der Anabolismus und der Katabolismus sind <strong>entgegengesetzt arbeitende Teile</strong>* des Metabolismus. Der Anabolismus ist der <strong>aufbauende Teil</strong>* und der Katabolismus der <strong>abbauende Teil</strong>*.</span></p>
+</section>
+<section id="beschreibe-reproduktion" class="level3" data-number="1.8">
+<h3 data-number="1.8" class="anchored" data-anchor-id="beschreibe-reproduktion"><span class="header-section-number">1.8</span> Beschreibe Reproduktion</h3>
+<p>Beschreibe in zwei Sätzen die <strong>Reproduktion</strong>.</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 2 Punkte von 3 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Die Reproduktion beschreibt den <strong>Lebensprozess</strong>*, der zu der <strong>Herstellung eines dem Ausgangsorganismus ähnlichen Systems oder Organismus</strong>* führt. Die Reproduktion wird zur <strong>Vermehrung</strong>*, wenn <strong>die Anzahl der Nachkommen die Anzahl der Erzeuger überschreitet</strong>*.</span></p>
+</section>
+<section id="biologische-information" class="level3" data-number="1.9">
+<h3 data-number="1.9" class="anchored" data-anchor-id="biologische-information"><span class="header-section-number">1.9</span> Biologische Information</h3>
+<p>Wie heißt die biologische Information? Wo wird sie üblicherweise gespeichert?</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 3 Punkte von 5 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Die biologische information heißt <strong>genetische Information</strong>*. Die genetische Information wird in <strong>lange kreisförmige oder lineare Moleküle</strong> gespeichert*, die aus <strong>DNA</strong> bestehen*. In Bakterien befindet sie sich <strong>lose innerhalb der Zelle</strong>*; bei höheren Organismen liegt die DNA in einer <strong>hoch komprimierten Form in einem Zellkern</strong> vor*.</span></p>
+</section>
+<section id="stoffe-rein-stoffe-raus" class="level3" data-number="1.10">
+<h3 data-number="1.10" class="anchored" data-anchor-id="stoffe-rein-stoffe-raus"><span class="header-section-number">1.10</span> Stoffe rein, Stoffe raus</h3>
+<p>Betrachte <a href="#fig-metabolism-equilibrium" class="quarto-xref">Abbildung&nbsp;1</a> und nenne jeweils was in Pflanzen und Tieren hinein und hinaus geht.</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 3 Punkte von 5 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Bei Tieren gehen hinein: <strong><span class="math inline">\ce{\mathbf{O2}}</span> und Nahrung</strong>**. Heraus kommen: <strong>Abfall und <span class="math inline">\ce{\mathbf{CO2}}</span></strong>**. Bei Pflanzen muss man unterscheiden. Wenn Licht das ist, kommen hinein: <strong><span class="math inline">\ce{\mathbf{CO2}}</span> und Mineralien</strong>** und heraus kommt <strong><span class="math inline">\ce{\mathbf{O2}}</span></strong>*. nachts jedoch, wenn kein Licht das ist, geht bei Pflanzen <strong><span class="math inline">\ce{\mathbf{O2}}</span></strong>* hinein und es kommt <strong><span class="math inline">\ce{\mathbf{CO2}}</span></strong>* heraus. Die Pflanzen verbrauchen nur ihre eigene Nahrung.</span></p>
+</section>
+<section id="die-hülle" class="level3" data-number="1.11">
+<h3 data-number="1.11" class="anchored" data-anchor-id="die-hülle"><span class="header-section-number">1.11</span> Die Hülle</h3>
+<p>Das Leben trennt sich vom Universum ab:</p>
+<ol type="a">
+<li><p>Wie heißt das Ding, welches die Abtrennung ermöglicht?</p></li>
+<li><p>Mit welchem Naturstoff oder Material grenzt sich das Leben von seiner Umgebung ab? Nenne auch den wissenschaftlichen Namen.</p></li>
+<li><p>Wie nennt sich die biologische Grundeinheit, die durch die Abtrennung von der Umgebung entsteht?</p></li>
+</ol>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 3 Punkte von 5 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">a. Das Leben grenzt sich durch eine Membran* von der Welt ab; b. Die Membran besteht aus Fett* oder fettähnlichen* Stoffen. Diese werden Lipide* genannt; c.&nbsp;Die Grundeinheit der Biologie ist ein durch eine Membran von der Umgebung abgetrennte Zelle*.</span></p>
+</section>
+<section id="reizverarbeitung" class="level3" data-number="1.12">
+<h3 data-number="1.12" class="anchored" data-anchor-id="reizverarbeitung"><span class="header-section-number">1.12</span> Reizverarbeitung</h3>
+<p>Die Umwelt besteht aus vielen unterschiedlichen physikalischen und chemischen Zuständen und Ereignissen. Diese können als Reize wahrgenommen werden.</p>
+<ol type="a">
+<li><p>Welche Organismengruppen sind auf Reizverarbeitung angewiesen? Warum?</p></li>
+<li><p>Mit welchen Strukturen verarbeiten diese Organismengruppen die Reize? Nenne sie und beschreibe knapp ihre Funktion.</p></li>
+<li><p>Gib den Namen der Strukturen an, die bei höheren Organismen für die Reizaufnahme und -verarbeitung verwendet werden.</p></li>
+</ol>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 3 Punkte von 5 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">a. Alle höheren; dass heisst komplexeren* und vielzelligen* Organismen, die sich frei bewegen können*, verarbeiten Reize. Im Gegensatz zu feststehenden Organismen*, können freie Organismen auf die Reize schnell reagieren*: durch Bewegung auf die Reizquelle zu* oder von ihr weg*.</span></p>
+</section>
+<section id="anpassung" class="level3" data-number="1.13">
+<h3 data-number="1.13" class="anchored" data-anchor-id="anpassung"><span class="header-section-number">1.13</span> Anpassung</h3>
+<p>Von welchem Zeitraum sprechen wir, wenn wir in <a href="#fig-adaptation" class="quarto-xref">Abbildung&nbsp;2</a> von schneller und langsamer Anpassung sprechen?</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-adaptation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-adaptation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-adaptation">flowchart LR
+    Anfang1@{shape: circ, label: "Leben"} --&gt; Ende1@{shape: circ, label: "Leben"} 
+    Anfang2@{shape: circ, label: "Leben"} --&gt; Zwischen2@{shape: circ, label: "... ... ... ... ..."} --&gt; Ende2@{shape: rounded, label: "Leben"}
+
+    style Ende1 fill:#F4F4FF;
+    style Zwischen2 fill:#F4F4E7,stroke:#F4F4E7;
+    style Ende2 fill:#F4F4FF;
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-adaptation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2: Veränderung gehört zum Leben wie die Luft zum Atmen. Oben sieht man eine schnelle, unten eine langsame Veränderung.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 3 Punkte von 5 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">In der Biologie sind zeitliche Perioden oft relativ*. Es ist nicht entscheidend, in welcher absoluter Zeit etwas erfolgt*. Es ist viel wichtiger, ob eine Veränderung* schnell oder langsam relativ zu der eigenen Lebensspanne ist*.</span></p>
+</section>
+</section>
+<section id="stufe-iii" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="stufe-iii"><span class="header-section-number">2</span> Stufe III</h2>
+<section id="warum-stoffe-rein-und-raus" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="warum-stoffe-rein-und-raus"><span class="header-section-number">2.1</span> Warum Stoffe rein und raus?</h3>
+<p>Warum muss etwas in das Lebendige hinein gehen und heraus kommen in <a href="#fig-metabolism-equilibrium" class="quarto-xref">Abbildung&nbsp;1</a>? Was wird da verwendet und warum?</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 3 Punkte von 5 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Bei Tieren gehen hinein: <strong><span class="math inline">\ce{\mathbf{O2}}</span> und Nahrung</strong>*. Heraus kommen: <strong>Abfall und <span class="math inline">\ce{\mathbf{CO2}}</span></strong>*. Ein Teil der Nahrung wird durch die Verbrennung mit Sauerstoff in Energie umgewandelt*. Der andere Teil wird in seine molekularen Bestandteile zerlegt* und als Baustoff für das eigene Material verwendet*. Pflanzen können mithilfe des Sonnelichtes ihre eigene Nahrung aufbauen*. Der Baustoff ist bereits in seine kleinsten Bestandteile zerlegt: das <strong><span class="math inline">\ce{\mathbf{CO2}}</span></strong>*. Nachts, wenn das Licht der Sonne nicht da ist, verbrauchen Pflanzen <em>die</em> Nahrung, die sie am Tag hergestellt haben*. Da Pflanzen ebenfalls aus Nahrung Energie gewinnen müssen, verbrauchen sie ständig <strong><span class="math inline">\ce{\mathbf{O2}}</span></strong>*.</span></p>
+</section>
+<section id="was-ist-der-tod" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="was-ist-der-tod"><span class="header-section-number">2.2</span> Was ist der Tod?</h3>
+<p>Erkläre den Tod durch einen Kennzeichen des Lebens, das durch den Tod unmittelbar und relativ schnell verändert wird?</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 3 Punkte von 5 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Der Tod ist ein Zustand, bei dem die Lebensvorgänge zum Erliegen kommen*. Das kann durch Zerstörung* oder Deregulation* vorkommen. Wenn das passiert ist das sofortige äußere Zeichen, dass das Fliessgleichgewicht aufhört zu existieren*. In einer relativ kurzen Periode bewegt sich der Organismus auf ein Gleichgewicht mit seiner Umgebung zu*, der den Endzustand darstellt*.</span></p>
+</section>
+<section id="wachse-und-vermehre-dich" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="wachse-und-vermehre-dich"><span class="header-section-number">2.3</span> Wachse und vermehre dich</h3>
+<p>Erläutere den Zusammenhang zwischen <strong>Wachstum</strong> und <strong>Reproduktion</strong>.</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 3 Punkte von 5 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Wachstum ist ein Folge der Reproduktion*. Wachstum ist notwendig, da die genetische Information zumindest einmal kopiert werden muss*, damit der Tochterorganismus es erbt*. Die genetische Information stellt bereits einen erheblichen Masseanteil eines Organismus dar*. Die Verdopplung trifft auch auf andere zellulären Strukturen wie das Zellskelett, die Mitochondrien, Vakuolen, usw. zu*.</span></p>
+</section>
+<section id="nochmal-anpassung" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="nochmal-anpassung"><span class="header-section-number">2.4</span> Nochmal Anpassung</h3>
+<p>Was sorgt jeweils für die schnelle und die langsame Anpassung?</p>
+<p><span class="light-content" data-fg="purple" style="color: #af51e7;">Du kannst 3 Punkte von 5 möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.</span></p>
+<p><span class="light-content" data-fg="green-shade-3" style="color: #31552e;">Schnelle Anpassung: sie beruht auf die Information, die sich zum Zeitpunkt der Veränderung im Organismus befindet*. Es handelt sich um eine individuelle Anpassung*. Dies Information ist das einzige Mittel*, dass der Organismus besitzt, um mit allen möglichen Veränderung im Verlauf seines Lebens zurechtzukommen*. Da es hier eine Variation innerhalb einer Gruppe gibt*, können manche mit diesen relativ kurzfristigen Veränderungen besser oder schlechter zurechtkommen*. Langsame Anpassung oder Evolution: hier sind die individuellen Unterschiede in der Fähigkeit mit der Veränderung umzugehen auch vorhanden, aber die Veränderung findet relativ langsam statt*. Dadurch sind die Veränderungen für die einzelnen Individuen nicht so wichtig; für die Gruppe im Verlauf der Zeit aber schon*. Die langsame Anpassung passt nicht ein Individuum an, sondern eine Gruppe*. Evolution ist die langsame Veränderung einer Population über mehrere Generationen hinweg*.</span></p>
+</section>
+</section>
+<section id="punkte" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="punkte">Punkte</h2>
+<p>Die Gesamtpunktanzahl ohne Multiplikatoren ist 90. Für die Benotung ist die Punktanzahl ohne Multiplikatoren entscheidend. Mit Multiplikatoren ergeben sich für die unterschiedlichen Anforderungsstufen folgende maximale Punktanzahlen:</p>
+<ul>
+<li>Stufe I: 36 Punkte,</li>
+<li>Stufe II: 48 Punkte,</li>
+<li>Stufe III: 90 Punkte.</li>
+</ul>
+<p>Zusammen ergibt das 174. Diese Zahl ist größer als die Gesamtpunktanzahl ohne Multiplikatoren. Das heisst, Du kannst eine Note “Sehr gut” durchaus mit Aufgaben aus Stufe I und II erreichen; aber es sind dann mehr Aufgaben. Die genaue Verteilung der Prozent- und Punktbereiche mit den dazugehörigen Noten entnimmst Du der folgenden Tabelle.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="ktnelgwexu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ktnelgwexu table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#ktnelgwexu thead, #ktnelgwexu tbody, #ktnelgwexu tfoot, #ktnelgwexu tr, #ktnelgwexu td, #ktnelgwexu th {
+  border-style: none;
+}
+
+#ktnelgwexu p {
+  margin: 0;
+  padding: 0;
+}
+
+#ktnelgwexu .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #181817;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #F4F4E7;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#ktnelgwexu .gt_title {
+  color: #181817;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #F4F4E7;
+  border-bottom-width: 0;
+}
+
+#ktnelgwexu .gt_subtitle {
+  color: #181817;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #F4F4E7;
+  border-top-width: 0;
+}
+
+#ktnelgwexu .gt_heading {
+  background-color: #F4F4E7;
+  text-align: center;
+  border-bottom-color: #F4F4E7;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_col_heading {
+  color: #181817;
+  background-color: #F4F4E7;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ktnelgwexu .gt_column_spanner_outer {
+  color: #181817;
+  background-color: #F4F4E7;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ktnelgwexu .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ktnelgwexu .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ktnelgwexu .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ktnelgwexu .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#ktnelgwexu .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #181817;
+  background-color: #F4F4E7;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#ktnelgwexu .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #181817;
+  background-color: #F4F4E7;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ktnelgwexu .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#ktnelgwexu .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#ktnelgwexu .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ktnelgwexu .gt_stub {
+  color: #181817;
+  background-color: #F4F4E7;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ktnelgwexu .gt_stub_row_group {
+  color: #181817;
+  background-color: #F4F4E7;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#ktnelgwexu .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#ktnelgwexu .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#ktnelgwexu .gt_summary_row {
+  color: #181817;
+  background-color: #F4F4E7;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ktnelgwexu .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#ktnelgwexu .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_grand_summary_row {
+  color: #181817;
+  background-color: #F4F4E7;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ktnelgwexu .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#ktnelgwexu .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_footnotes {
+  color: #181817;
+  background-color: #F4F4E7;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ktnelgwexu .gt_sourcenotes {
+  color: #181817;
+  background-color: #F4F4E7;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ktnelgwexu .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ktnelgwexu .gt_left {
+  text-align: left;
+}
+
+#ktnelgwexu .gt_center {
+  text-align: center;
+}
+
+#ktnelgwexu .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ktnelgwexu .gt_font_normal {
+  font-weight: normal;
+}
+
+#ktnelgwexu .gt_font_bold {
+  font-weight: bold;
+}
+
+#ktnelgwexu .gt_font_italic {
+  font-style: italic;
+}
+
+#ktnelgwexu .gt_super {
+  font-size: 65%;
+}
+
+#ktnelgwexu .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#ktnelgwexu .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#ktnelgwexu .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#ktnelgwexu .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#ktnelgwexu .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#ktnelgwexu .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#ktnelgwexu .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#ktnelgwexu .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#ktnelgwexu div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="percent" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Prozentbereich, %</th>
+<th id="points" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Punktebereich</th>
+<th id="grade_points" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Notenpunkte</th>
+<th id="grade_level" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Notenstufe</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_center" headers="percent">97 bis 100</td>
+<td class="gt_row gt_center" headers="points">87 bis 90</td>
+<td class="gt_row gt_right" headers="grade_points">15</td>
+<td class="gt_row gt_left" headers="grade_level">Sehr gut</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="percent">93 bis 96</td>
+<td class="gt_row gt_center" headers="points">84 bis 87</td>
+<td class="gt_row gt_right" headers="grade_points">14</td>
+<td class="gt_row gt_left" headers="grade_level">Sehr gut</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="percent">90 bis 92</td>
+<td class="gt_row gt_center" headers="points">81 bis 83</td>
+<td class="gt_row gt_right" headers="grade_points">13</td>
+<td class="gt_row gt_left" headers="grade_level">Sehr gut</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="percent">85 bis 89</td>
+<td class="gt_row gt_center" headers="points">76 bis 81</td>
+<td class="gt_row gt_right" headers="grade_points">12</td>
+<td class="gt_row gt_left" headers="grade_level">Gut</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="percent">80 bis 84</td>
+<td class="gt_row gt_center" headers="points">72 bis 76</td>
+<td class="gt_row gt_right" headers="grade_points">11</td>
+<td class="gt_row gt_left" headers="grade_level">Gut</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="percent">75 bis 79</td>
+<td class="gt_row gt_center" headers="points">68 bis 72</td>
+<td class="gt_row gt_right" headers="grade_points">10</td>
+<td class="gt_row gt_left" headers="grade_level">Gut</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="percent">70 bis 74</td>
+<td class="gt_row gt_center" headers="points">63 bis 67</td>
+<td class="gt_row gt_right" headers="grade_points">9</td>
+<td class="gt_row gt_left" headers="grade_level">Befriedigend</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="percent">65 bis 69</td>
+<td class="gt_row gt_center" headers="points">58 bis 63</td>
+<td class="gt_row gt_right" headers="grade_points">8</td>
+<td class="gt_row gt_left" headers="grade_level">Befriedigend</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="percent">60 bis 64</td>
+<td class="gt_row gt_center" headers="points">54 bis 58</td>
+<td class="gt_row gt_right" headers="grade_points">7</td>
+<td class="gt_row gt_left" headers="grade_level">Befriedigend</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="percent">55 bis 59</td>
+<td class="gt_row gt_center" headers="points">50 bis 54</td>
+<td class="gt_row gt_right" headers="grade_points">6</td>
+<td class="gt_row gt_left" headers="grade_level">Ausreichend</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="percent">50 bis 54</td>
+<td class="gt_row gt_center" headers="points">45 bis 49</td>
+<td class="gt_row gt_right" headers="grade_points">5</td>
+<td class="gt_row gt_left" headers="grade_level">Ausreichend</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="percent">45 bis 49</td>
+<td class="gt_row gt_center" headers="points">40 bis 45</td>
+<td class="gt_row gt_right" headers="grade_points">4</td>
+<td class="gt_row gt_left" headers="grade_level">Ausreichend</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="percent">38 bis 44</td>
+<td class="gt_row gt_center" headers="points">34 bis 40</td>
+<td class="gt_row gt_right" headers="grade_points">3</td>
+<td class="gt_row gt_left" headers="grade_level">Mangelhaft</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="percent">32 bis 37</td>
+<td class="gt_row gt_center" headers="points">29 bis 34</td>
+<td class="gt_row gt_right" headers="grade_points">2</td>
+<td class="gt_row gt_left" headers="grade_level">Mangelhaft</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="percent">25 bis 31</td>
+<td class="gt_row gt_center" headers="points">22 bis 28</td>
+<td class="gt_row gt_right" headers="grade_points">1</td>
+<td class="gt_row gt_left" headers="grade_level">Mangelhaft</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="percent">0 bis 25</td>
+<td class="gt_row gt_center" headers="points">0 bis 23</td>
+<td class="gt_row gt_right" headers="grade_points">0</td>
+<td class="gt_row gt_left" headers="grade_level">Ungenügend</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
