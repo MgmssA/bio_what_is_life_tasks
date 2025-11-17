@@ -14,7 +14,7 @@ level_2_total_points <- level_2_total_points + level_2_points
 
 Betrachte @fig-metabolism-equilibrium und nenne jeweils was in Pflanzen und Tieren hinein und hinaus geht.
 
-[Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
+[Du kannst `{r} level_2_points` Punkte von `{r} level_2_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
 [Bei Tieren gehen hinein: **$\ce{\mathbf{O2}}$ und Nahrung**\*\*. Heraus kommen: **Abfall und $\ce{\mathbf{CO2}}$**\*\*. Bei Pflanzen muss man unterscheiden. Wenn Licht das ist, kommen hinein: **$\ce{\mathbf{CO2}}$ und Mineralien**\*\* und heraus kommt **$\ce{\mathbf{O2}}$**\*. nachts jedoch, wenn kein Licht das ist, geht bei Pflanzen **$\ce{\mathbf{O2}}$**\* hinein und es kommt **$\ce{\mathbf{CO2}}$**\* heraus. Die Pflanzen verbrauchen nur ihre eigene Nahrung.]{fg="green-shade-3"}
@@ -40,7 +40,7 @@ a. Wie heißt das Ding, welches die Abtrennung ermöglicht?
 
 #. Wie nennt sich die biologische Grundeinheit, die durch die Abtrennung von der Umgebung entsteht?
 
-[Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
+[Du kannst `{r} level_2_points` Punkte von `{r} level_2_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
 [a. Das Leben grenzt sich durch eine Membran\* von der Welt ab; b. Die Membran besteht aus Fett\* oder fettähnlichen\* Stoffen. Diese werden Lipide\* genannt; c. Die Grundeinheit der Biologie ist ein durch eine Membran von der Umgebung abgetrennte Zelle\*.]{fg="green-shade-3"}
@@ -66,7 +66,7 @@ a. Welche Organismengruppen sind auf Reizverarbeitung angewiesen? Warum?
 
 #. Gib den Namen der Strukturen an, die bei höheren Organismen für die Reizaufnahme und -verarbeitung verwendet werden.
 
-[Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
+[Du kannst `{r} level_2_points` Punkte von `{r} level_2_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
 [a. Alle höheren; dass heisst komplexeren\* und vielzelligen\* Organismen, die sich frei bewegen können\*, verarbeiten Reize. Im Gegensatz zu feststehenden Organismen\*, können freie Organismen auf die Reize schnell reagieren\*: durch Bewegung auf die Reizquelle zu\* oder von ihr weg\*.]{fg="green-shade-3"}
@@ -99,7 +99,7 @@ flowchart LR
     style Ende2 fill:#F4F4FF;
 ```
 
-[Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
+[Du kannst `{r} level_2_points` Punkte von `{r} level_2_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
 [In der Biologie sind zeitliche Perioden oft relativ\*. Es ist nicht entscheidend, in welcher absoluter Zeit etwas erfolgt\*. Es ist viel wichtiger, ob eine Veränderung\* schnell oder langsam relativ zu der eigenen Lebensspanne ist\*. ]{fg="green-shade-3"}

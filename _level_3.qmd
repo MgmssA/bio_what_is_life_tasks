@@ -14,7 +14,7 @@ level_3_total_points <- level_3_total_points + level_3_points
 
 Warum muss etwas in das Lebendige hinein gehen und heraus kommen in @fig-metabolism-equilibrium? Was wird da verwendet und warum?
 
-[Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
+[Du kannst `{r} level_3_points` Punkte von `{r} level_3_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
 [Bei Tieren gehen hinein: **$\ce{\mathbf{O2}}$ und Nahrung**\*. Heraus kommen: **Abfall und $\ce{\mathbf{CO2}}$**\*. Ein Teil der Nahrung wird durch die Verbrennung mit Sauerstoff in Energie umgewandelt\*. Der andere Teil wird in seine molekularen Bestandteile zerlegt\* und als Baustoff für das eigene Material verwendet\*. Pflanzen können mithilfe des Sonnelichtes ihre eigene Nahrung aufbauen\*. Der Baustoff ist bereits in seine kleinsten Bestandteile zerlegt: das **$\ce{\mathbf{CO2}}$**\*. Nachts, wenn das Licht der Sonne nicht da ist, verbrauchen Pflanzen *die* Nahrung, die sie am Tag hergestellt haben\*. Da Pflanzen ebenfalls aus Nahrung Energie gewinnen müssen, verbrauchen sie ständig **$\ce{\mathbf{O2}}$**\*.]{fg="green-shade-3"}
@@ -34,7 +34,7 @@ level_3_total_points <- level_3_total_points + level_3_points
 
 Erkläre den Tod durch einen Kennzeichen des Lebens, das durch den Tod unmittelbar und relativ schnell verändert wird?
 
-[Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
+[Du kannst `{r} level_3_points` Punkte von `{r} level_3_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
 [Der Tod ist ein Zustand, bei dem die Lebensvorgänge zum Erliegen kommen\*. Das kann durch Zerstörung\* oder Deregulation\* vorkommen. Wenn das passiert ist das sofortige äußere Zeichen, dass das Fliessgleichgewicht aufhört zu existieren\*. In einer relativ kurzen Periode bewegt sich der Organismus auf ein Gleichgewicht mit seiner Umgebung zu\*, der den Endzustand darstellt\*.]{fg="green-shade-3"}
@@ -54,7 +54,7 @@ level_3_total_points <- level_3_total_points + level_3_points
 
 Erläutere den Zusammenhang zwischen **Wachstum** und **Reproduktion**.
 
-[Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
+[Du kannst `{r} level_3_points` Punkte von `{r} level_3_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
 [Wachstum ist ein Folge der Reproduktion\*. Wachstum ist notwendig, da die genetische Information zumindest einmal kopiert werden muss\*, damit der Tochterorganismus es erbt\*. Die genetische Information stellt bereits einen erheblichen Masseanteil eines Organismus dar\*. Die Verdopplung trifft auch auf andere zellulären Strukturen wie das Zellskelett, die Mitochondrien, Vakuolen, usw. zu\*.]{fg="green-shade-3"}
@@ -74,7 +74,7 @@ level_3_total_points <- level_3_total_points + level_3_points
 
 Was sorgt jeweils für die schnelle und die langsame Anpassung?
 
-[Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
+[Du kannst `{r} level_3_points` Punkte von `{r} level_3_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
 [Schnelle Anpassung: sie beruht auf die Information, die sich zum Zeitpunkt der Veränderung im Organismus befindet\*. Es handelt sich um eine individuelle Anpassung\*. Dies Information ist das einzige Mittel\*, dass der Organismus besitzt, um mit allen möglichen Veränderung im Verlauf seines Lebens zurechtzukommen\*. Da es hier eine Variation innerhalb einer Gruppe gibt\*, können manche mit diesen relativ kurzfristigen Veränderungen besser oder schlechter zurechtkommen\*. Langsame Anpassung oder Evolution: hier sind die individuellen Unterschiede in der Fähigkeit mit der Veränderung umzugehen auch vorhanden, aber die Veränderung findet relativ langsam statt\*. Dadurch sind die Veränderungen für die einzelnen Individuen nicht so wichtig; für die Gruppe im Verlauf der Zeit aber schon\*. Die langsame Anpassung passt nicht ein Individuum an, sondern eine Gruppe\*. Evolution ist die langsame Veränderung einer Population über mehrere Generationen hinweg\*. ]{fg="green-shade-3"}
