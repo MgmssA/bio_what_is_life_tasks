@@ -12,7 +12,7 @@ level_3_max_points <- max_points * level_3_multiplier
 level_3_total_points <- level_3_total_points + level_3_points
 ``` 
 
-Warum muss etwas in das Lebendige hinein gehen und heraus kommen in @fig-metabolism-equilibrium? Was wird da verwendet und warum?
+Warum muss etwas in das Lebendige hinein gehen und heraus kommen in @fig-metabolism-equilibrium? Was wird da verwendet und warum? Auch hier geht es um die Nennung der für den Metabolismus relevanten Faktoren aber vor allem um deren Verwendung. Zusatzpunkte gibt es für die Unterscheidung zwischen Tier und Pflanze.
 
 [Du kannst `{r} level_3_points` Punkte von `{r} level_3_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
@@ -32,7 +32,7 @@ level_3_max_points <- max_points * level_3_multiplier
 level_3_total_points <- level_3_total_points + level_3_points
 ``` 
 
-Erkläre den Tod durch einen Kennzeichen des Lebens, das durch den Tod unmittelbar und relativ schnell verändert wird?
+Erkläre den Tod durch einen Kennzeichen des Lebens, das durch den Tod unmittelbar und relativ schnell verändert wird? Daraufhin tritt noch etwas anderes innerhalb von Stunden ein.
 
 [Du kannst `{r} level_3_points` Punkte von `{r} level_3_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
@@ -52,7 +52,7 @@ level_3_max_points <- max_points * level_3_multiplier
 level_3_total_points <- level_3_total_points + level_3_points
 ``` 
 
-Erläutere den Zusammenhang zwischen **Wachstum** und **Reproduktion**.
+Erläutere den Zusammenhang zwischen **Wachstum** und **Reproduktion**. Der Zusammenhang erläutern heisst, dass Du die Gründe dafür nennst.
 
 [Du kannst `{r} level_3_points` Punkte von `{r} level_3_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
@@ -72,7 +72,7 @@ level_3_max_points <- max_points * level_3_multiplier
 level_3_total_points <- level_3_total_points + level_3_points
 ``` 
 
-Was sorgt jeweils für die schnelle und die langsame Anpassung?
+Was sorgt jeweils für die schnelle und die langsame Anpassung? Denk bitte auch an die relativen Zeiten der Biologie; relativ bezogen zur Lebensspanne.
 
 [Du kannst `{r} level_3_points` Punkte von `{r} level_3_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 

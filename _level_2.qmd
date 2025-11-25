@@ -12,7 +12,7 @@ level_2_max_points <- max_points * level_2_multiplier
 level_2_total_points <- level_2_total_points + level_2_points
 ``` 
 
-Betrachte @fig-metabolism-equilibrium und nenne jeweils was in Pflanzen und Tieren hinein und hinaus geht.
+Betrachte @fig-metabolism-equilibrium und nenne jeweils was in Pflanzen und Tieren hinein und hinaus geht. Es geht um die für den Metabolismus relevanten Sachen. Wenn Du Zusatzpunkte willst, dann behandelst Du Tiere und Pflanzen getrennt.
 
 [Du kannst `{r} level_2_points` Punkte von `{r} level_2_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
