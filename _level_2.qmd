@@ -69,7 +69,7 @@ a. Welche Organismengruppen sind auf Reizverarbeitung angewiesen? Warum?
 [Du kannst `{r} level_2_points` Punkte von `{r} level_2_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
-[a. Alle höheren; dass heisst komplexeren\* und vielzelligen\* Organismen, die sich frei bewegen können\*, verarbeiten Reize. Im Gegensatz zu feststehenden Organismen\*, können freie Organismen auf die Reize schnell reagieren\*: durch Bewegung auf die Reizquelle zu\* oder von ihr weg\*.]{fg="green-shade-3"}
+[a: Alle höheren; dass heisst komplexeren und vielzelligen\* Organismen, die sich frei bewegen können\*, verarbeiten Reize. b: Komplexe Organismen besitzen ein Nervenzellen\*, die Reizinformation schnell über größere Distanzen leiten. Einfache Organismen behandeln Reize molekular\*. c: Sensoren oder Rezeptoren\*, Nervensystem\*, Gehirn\*.]{fg="green-shade-3"}
 :::
 
 ### Anpassung
@@ -84,7 +84,7 @@ level_2_max_points <- max_points * level_2_multiplier
 level_2_total_points <- level_2_total_points + level_2_points
 ``` 
 
-Von welchem Zeitraum sprechen wir, wenn wir in @fig-adaptation von schneller und langsamer Anpassung sprechen?
+Von welchem Zeitraum sprechen wir, wenn wir in @fig-adaptation von schneller und langsamer Anpassung sprechen? Setze den Zeitraum in Relation zur Lebensspanne.
 
 ```{mermaid}
 %%| fig-height: 3

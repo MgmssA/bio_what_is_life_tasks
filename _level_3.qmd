@@ -37,7 +37,7 @@ Erkläre den Tod durch einen Kennzeichen des Lebens, das durch den Tod unmittelb
 [Du kannst `{r} level_3_points` Punkte von `{r} level_3_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
-[Der Tod ist ein Zustand, bei dem die Lebensvorgänge zum Erliegen kommen\*. Das kann durch Zerstörung\* oder Deregulation\* vorkommen. Wenn das passiert ist das sofortige äußere Zeichen, dass das Fliessgleichgewicht aufhört zu existieren\*. In einer relativ kurzen Periode bewegt sich der Organismus auf ein Gleichgewicht mit seiner Umgebung zu\*, der den Endzustand darstellt\*.]{fg="green-shade-3"}
+[Der Tod ist ein Zustand, bei dem die Lebensvorgänge zum Erliegen kommen\*. Das unmittelbarste ist der Stoffwechsel\*. Das kann durch Zerstörung\* oder Deregulation\* vorkommen. Wenn das passiert ist das sofortige äußere Zeichen, dass das Fliessgleichgewicht aufhört zu existieren\*. In einer relativ kurzen Periode bewegt sich der Organismus auf ein Gleichgewicht mit seiner Umgebung zu\*, der den Endzustand darstellt\*.]{fg="green-shade-3"}
 :::
 
 ### Wachse und vermehre dich
