@@ -69,7 +69,7 @@ a. Welche Organismengruppen sind auf Reizverarbeitung angewiesen? Warum?
 [Du kannst `{r} level_2_points` Punkte von `{r} level_2_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
-[a: Alle höheren; dass heisst komplexeren und vielzelligen\* Organismen, die sich frei bewegen können\*, verarbeiten Reize. b: Komplexe Organismen besitzen ein Nervenzellen\*, die Reizinformation schnell über größere Distanzen leiten. Einfache Organismen behandeln Reize molekular\*. c: Sensoren oder Rezeptoren\*, Nervensystem\*, Gehirn\*.]{fg="green-shade-3"}
+[a: Alle höheren; dass heisst komplexeren und vielzelligen\* Organismen, die sich frei bewegen können\*., verarbeiten Reize. Aber auch einfache Einzeller und Bakterien\*. b: Komplexe Organismen besitzen Nervenzellen\*, die Reizinformation schnell über größere Distanzen leiten. Einfache Organismen behandeln Reize molekular\*. c: Sensoren oder Rezeptoren\*, Nervensystem\*, Gehirn\*.]{fg="green-shade-3"}
 :::
 
 ### Anpassung
@@ -102,5 +102,5 @@ flowchart LR
 [Du kannst `{r} level_2_points` Punkte von `{r} level_2_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben.]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
-[In der Biologie sind zeitliche Perioden oft relativ\*. Es ist nicht entscheidend, in welcher absoluter Zeit etwas erfolgt\*. Es ist viel wichtiger, ob eine Veränderung\* schnell oder langsam relativ zu der eigenen Lebensspanne ist\*. ]{fg="green-shade-3"}
+[In der Biologie sind zeitliche Perioden oft relativ. Es ist nicht entscheidend, in welcher absoluter Zeit etwas erfolgt. Es ist viel wichtiger, ob eine Veränderung\* schnell oder langsam relativ zu der eigenen Lebensspanne ist\*. Schnelle Anpassung passiert in Perioden, die kleiner als die Lebensspanne sind\*; langsame Anpassung passiert in Perioden, die länger als die Lebensspanne sind\*.]{fg="green-shade-3"}
 :::

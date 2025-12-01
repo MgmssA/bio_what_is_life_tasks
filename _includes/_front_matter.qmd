@@ -4,7 +4,7 @@ title: |
     Kennzeichen des Lebens
 subtitle: 'Warum lebt etwas und etwas anderes nicht?<br><small>Aufgaben</small>'
 date: 2025-10-07
-date-modified: 2025-10-07
+date-modified: 2025-12-01
 author: Călin Aurel Drăgan
 # abstract: 'Abstract'
 # bibliography: references.bib
