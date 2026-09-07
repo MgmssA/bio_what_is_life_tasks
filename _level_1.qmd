@@ -52,7 +52,7 @@ level_1_max_points <- max_points * level_1_multiplier
 level_1_total_points <- level_1_total_points + level_1_points
 ``` 
 
-Schau Dir @fig-metabolism-equilibrium an; wie kommt das **Fliessgleichgewicht** zustande?
+Schau Dir @fig-metabolism-equilibrium an; wie kommt ein **Fliessgleichgewicht** zustande?
 
 ```{mermaid}
 %%| fig-height: 3
@@ -85,7 +85,7 @@ level_1_max_points <- max_points * level_1_multiplier
 level_1_total_points <- level_1_total_points + level_1_points
 ``` 
 
-Was ist die Homöostase? Gib eine kurze und prägnante Beschreibung. Warum gibt es denn überhaupt so etwas?
+Was ist die Homöostase? Gib eine kurze und prägnante Beschreibung. Warum gibt es das?
 
 [Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben]{fg="purple"}
 
