@@ -70,7 +70,7 @@ flowchart LR
 [Du kannst `{r} level_1_points` Punkte von `{r} level_1_max_points` möglichen Aufgabenpunkten bekommen. Punkte werden für Aussagen nur unter Einbeziehung und Beachtung von Fachsprache vergeben]{fg="purple"}
 
 ::: {.content-hidden unless-meta="show-rating"}
-[Ein Fliessgleichgewicht ist eine besondere Form eines Gleichgewichts\*. Die Besonderheit liegt darin, dass es eine **Überlagerung von Raten**\* darstellt. Im Fall eines lebenden Systems sprechen wir von der Überlagerung der Rate mit dem etwas in dem Organismus hineinkommt\* mit der Rate mit der etwas herauskommt\*. Auf das Diagramm bezogen heißt das, die Überlagerung von *Rein* mit *Raus*\*\*.]{fg="green-shade-3"}
+[Ein Fliessgleichgewicht ist eine besondere Form eines Gleichgewichts\*. Die Besonderheit liegt darin, dass es eine **Überlagerung von Raten**\* darstellt. Im Fall eines lebenden Systems sprechen wir von der Überlagerung der Rate mit dem etwas in dem Organismus hineinkommt\* mit der Rate mit der etwas herauskommt\*. Auf das Diagramm bezogen heißt das, die Überlagerung von *Rein* und *Raus*\*\*.]{fg="green-shade-3"}
 :::
 
 ### Beschreibung Homöostase

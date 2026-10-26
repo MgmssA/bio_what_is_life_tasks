@@ -17,7 +17,7 @@ format:
 has-fontawesome: false
 has-math: true
 has-rating: true
-show-rating: false
+show-rating: true
 filters:
   - highlight-text
 ---
